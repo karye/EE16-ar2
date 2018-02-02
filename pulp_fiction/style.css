@@ -1,0 +1,26 @@
+body {
+    background: #FFA500;
+}
+/* Orange sida */
+.container {
+    background: #FF8000;
+    width: 550px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 40px;
+}
+/* Sidans rubrik */
+h1 {
+    color: #FF1400;
+    font-family: 'Rammetto One', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+/* En replik */
+img {
+    border: 10px solid #FFFFFF;
+}
+p {
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+}
