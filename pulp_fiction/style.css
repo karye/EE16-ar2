@@ -1,13 +1,26 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #FFA500;
 }
 /* Orange sida */
 .container {
     background: #FF8000;
-    width: 550px;
-    margin: auto;
+    width: 630px;
+    margin: 50px auto;
     border-radius: 20px;
     padding: 40px;
+    box-shadow: 0 0 5px #FFF;
 }
 /* Sidans rubrik */
 h1 {
@@ -15,12 +28,36 @@ h1 {
     font-family: 'Rammetto One', cursive;
     font-size: 70px;
     text-align: center;
+    text-shadow: 1px 1px 2px #FFF;
 }
 /* En replik */
 img {
     border: 10px solid #FFFFFF;
+    margin-bottom: 20px;
 }
 p {
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+/* Bilderna varannan vänster och höger */
+.left {
+    float: left;
+    margin-right: 10px;
+}
+.right {
+    float: right;
+    margin-left: 10px;
+}
+hr {
+    clear:both;
+    visibility: hidden;
+}
+.text-left {
+    margin-right: 50px;
+}
+.text-right {
+    text-align: right;
+    margin-left: 50px;
 }
