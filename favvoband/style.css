@@ -1,0 +1,34 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menyn utseende */
+nav ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+nav li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #CC9999;
+}
+nav li a:hover {
+    background: #996666;
+}
+nav li .current {
+    background: #FFCC66;
+    color: #000000;
+}
