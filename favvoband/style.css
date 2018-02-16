@@ -1,3 +1,28 @@
+/* Importera alla typsnitt */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab');
+
+/* Main Primary color */
+.color-primary-0 { color: #B47100 }
+.color-primary-1 { color: #FF9F00 }
+.color-primary-2 { color: #EC9300 }
+.color-primary-3 { color: #7F4F00 }
+.color-primary-4 { color: #352100 }
+
+/* Main Secondary color (1) */
+.color-secondary-1-0 { color: #B40900 }
+.color-secondary-1-1 { color: #FF0D00 }
+.color-secondary-1-2 { color: #EC0C00 }
+.color-secondary-1-3 { color: #7F0600 }
+.color-secondary-1-4 { color: #350300 }
+
+/* Main Secondary color (2) */
+.color-secondary-2-0 { color: #B4A300 }
+.color-secondary-2-1 { color: #FFE700 }
+.color-secondary-2-2 { color: #ECD500 }
+.color-secondary-2-3 { color: #7F7200 }
+.color-secondary-2-4 { color: #353000 }
+
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -10,10 +35,38 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 
+/* Sidans utseende */
+body {
+    background: #777;
+}
+.container {
+    font-family: 'Oswald', sans-serif;
+    background: #999;
+    width: 800px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+/* Sidhuvudets utseende */
+header {
+
+}
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 74px;
+    text-align: center;
+}
+
 /* Menyn utseende */
+nav {
+    font-family: 'Roboto Slab', serif;
+    background: #CCC;
+    padding: 20px;
+}
 nav ul {
     margin-left: 0;
     padding-left: 0;
+    text-align: center;
 }
 nav li {
     display: inline;
@@ -31,4 +84,38 @@ nav li a:hover {
 nav li .current {
     background: #FFCC66;
     color: #000000;
+}
+
+/* Innehållets utseende */
+main {
+    background: #BBB;
+    padding: 30px;
+}
+main h2 {
+    text-align: center;
+    letter-spacing: 10px;
+}
+main figure {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #CCC;
+    margin: auto;
+}
+main img {
+    width: 100%;
+}
+main figcaption {
+
+}
+main p {
+    margin: 15px 0;
+}
+
+/* Sidfotens utseende */
+footer {
+    background: #888;
+    padding: 20px 30px;
+}
+footer p {
+    font-family: monospace;
 }
