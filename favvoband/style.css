@@ -22,7 +22,6 @@
 .color-secondary-2-3 { color: #7F7200 }
 .color-secondary-2-4 { color: #353000 }
 
-
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -37,14 +36,15 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Sidans utseende */
 body {
-    background: #777;
+    background: #ec9300;
 }
 .container {
     font-family: 'Oswald', sans-serif;
-    background: #999;
+    background: #7f7200;
     width: 800px;
     margin: 50px auto;
     padding: 50px;
+    border-radius: 10px;
 }
 
 /* Sidhuvudets utseende */
@@ -55,12 +55,15 @@ header h1 {
     font-family: 'Playfair Display', serif;
     font-size: 74px;
     text-align: center;
+    color: #b40900;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #FFF;
 }
 
 /* Menyn utseende */
 nav {
     font-family: 'Roboto Slab', serif;
-    background: #CCC;
     padding: 20px;
 }
 nav ul {
@@ -76,20 +79,22 @@ nav li a {
     padding: 5px 10px;
     text-decoration: none;
     color: #ffffff;
-    background: #CC9999;
+    background: #ff9f00;
+    border-radius: 20px;
+    margin: 0 5px;
 }
 nav li a:hover {
-    background: #996666;
+    background: #ecd500;
 }
 nav li .current {
-    background: #FFCC66;
-    color: #000000;
+    background: #b40900;
 }
 
 /* Innehållets utseende */
 main {
-    background: #BBB;
+    background: rgba(255, 255, 255, 0.33);
     padding: 30px;
+    border-radius: 5px;
 }
 main h2 {
     text-align: center;
@@ -100,6 +105,7 @@ main figure {
     padding: 30px;
     border: 1px solid #CCC;
     margin: auto;
+    background: #FFF;
 }
 main img {
     width: 100%;
@@ -113,7 +119,6 @@ main p {
 
 /* Sidfotens utseende */
 footer {
-    background: #888;
     padding: 20px 30px;
 }
 footer p {
