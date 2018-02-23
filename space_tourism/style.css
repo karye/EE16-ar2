@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Krona+One|Oswald');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans utseende */
+body {
+
+}
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+/* Sidhuvudets utseende */
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+}
+header h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Navigationen */
+header nav {
+    font-family: 'Oswald', sans-serif;
+}
+header ul {
+    list-style: none;
+    text-align: center;
+}
+header li {
+    display: inline;
+}
+header a {
+
+}
+header a:hover {
+
+}
+header a.current {
+
+}
+
+/* Sidans innehåll */
+main {
+    margin: 30px;
+}
+main h2 {
+    font-family: 'Oswald', sans-serif;
+}
+main figure {
+    width: 600px;
+    margin: auto;
+}
+main figure img {
+    width: 100%;
+}
+main figcaption {
+    font-family: 'Crimson Text', serif;
+}
+main p {
+    font-family: 'Crimson Text', serif;
+}
+
+/* Sidfotens utseende */
+footer {
+    padding: 30px;
+}
+footer p {
+    font-family: 'Crimson Text', serif;
+}

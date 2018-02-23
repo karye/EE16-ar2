@@ -1,0 +1,30 @@
+/* Regler för sida 1 */
+/* Video skall ligga i bakgrunden på sidans */
+.wanderer video {
+    position: fixed;
+    z-index: -100;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* Utseende på Carl Sagans citat */
+.wanderer blockquote {
+
+}
+
+/* Regler för sida 2 */
+.europa .container {
+    background: #4F6D7A;
+}
+.europa header h1, .europa main h2 {
+    color: #DD6E42;
+}
+.europa nav a {
+    color: #DD6E42;
+    text-decoration: none;
+}

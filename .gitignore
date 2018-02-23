@@ -3,3 +3,5 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
+/space_tourism/bilder/
+/space_tourism/video/
