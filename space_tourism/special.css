@@ -1,3 +1,7 @@
+.wanderer .container {
+    box-shadow: none;
+}
+
 /* Regler för sida 1 */
 /* Video skall ligga i bakgrunden på sidans */
 .wanderer video {
@@ -13,18 +17,29 @@
 }
 
 /* Utseende på Carl Sagans citat */
+.wanderer header {
+    background: rgba(255, 255, 255, 0.3);
+}
 .wanderer blockquote {
-
+    color: #FFF;
+    font-size: 25px;
+}
+.wanderer footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 900px;
 }
 
 /* Regler för sida 2 */
 .europa .container {
-    background: #4F6D7A;
+    background: #b9c1ed;
 }
-.europa header h1, .europa main h2 {
-    color: #DD6E42;
+
+/* Regler för sida 3 */
+.ceres .container {
+    background: #aedce2;
 }
-.europa nav a {
-    color: #DD6E42;
-    text-decoration: none;
-}
+
+
