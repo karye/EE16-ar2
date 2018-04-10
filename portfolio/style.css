@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald|PT+Sans');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -8,4 +10,98 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background: url("images/juskteez-vu-1041-unsplash.jpg");
+    background-size: cover;
+}
+.container {
+    width: 1280px;
+    font-family: 'PT Sans';
+    margin: auto;
+}
+
+/* Utseende på sidhuvudet */
+header {
+    color: #FFF;
+}
+header h1 {
+    font-family: 'Abril Fatface';
+    font-size: 60px;
+}
+header h2 {
+    font-family: 'Abril Fatface';
+    font-size: 24px;
+}
+header nav {
+    background: linear-gradient(90deg, rgba(62,176,208,1) 0%, rgba(9,9,121,1) 27%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    padding: 10px;
+}
+header ul {
+
+}
+header li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+header li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+header li.form {
+    float: right;
+}
+header input {
+
+}
+
+/* Utseend på artikel delen */
+main {
+    width: 65%;
+}
+main article {
+
+}
+main h3 {
+    font-family: Oswald;
+}
+main p.date {
+
+}
+main img {
+    width: 100%;
+}
+main p {
+
+}
+
+/* Utseende på sidebaren */
+aside {
+    width: 30%;
+}
+aside .sidebox {
+
+}
+aside .sidebox h4 {
+    font-family: Oswald;
+}
+aside .sidebox ul {
+
+}
+aside .sidebox li {
+
+}
+aside .sidebox img {
+
+}
+
+/* Utseende på sidfoten */
+footer {
+
+}
+footer p {
+
 }
