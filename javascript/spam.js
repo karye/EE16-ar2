@@ -13,7 +13,7 @@ function hemligAdress() {
 
     // Räkna ut tal1 + tal2
     var summa = get1 + get2;
-    
+    // Vad händer här?
 
     // Jämföra tal1 + tal2 med summa
     // Om lika visa hemlig adress
