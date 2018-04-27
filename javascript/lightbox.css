@@ -1,0 +1,44 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background: #efefef;
+}
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 25px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+.wrapper .slider {
+    margin: 30px auto;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0 0 25px #111;
+}
+.wrapper ul {
+    width: 6000px;
+}
+.wrapper li {
+    list-style-type: none;
+    display: inline;
+}
+.wrapper img {
+    max-width: 500px;
+}
