@@ -8,9 +8,9 @@ function hejdu(namn) {
 
 function rubrik() {
     var nyText = "Jag älskar Javascript";
-
+    
     document.getElementById("andre").innerHTML = nyText;
-
+    
     console.log(nyText);
 }
 
