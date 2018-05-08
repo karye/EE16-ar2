@@ -26,7 +26,10 @@ body {
     display: grid;
     grid-gap: 5%;
     grid-template-columns: 65% 30%;
-    grid-template-areas: "header header" "content sidebar" "footer footer";
+    grid-template-areas:
+    "header header"
+    "content sidebar"
+    "footer footer";
 }
 
 /* Utseende på sidhuvudet */
@@ -53,85 +56,84 @@ header nav {
 }
 
 header ul {}
-    
+
     header li {
         display: inline-block;
         padding: 5px 15px;
     }
-    
+
     header li a {
         color: #FFF;
         text-decoration: none;
         font-size: 18px;
         font-weight: bold;
     }
-    
+
     header li.form {
         float: right;
     }
-    
+
     header input {}
-        
+
         /* Utseend på artikel delen */
-        
+
         main {
             grid-area: content;
         }
-        
+
         main article {
             background: #FFF;
             padding: 20px;
             border-radius: 10px;
             margin: 20px 0;
         }
-        
+
         main h3 {
             font-family: Oswald;
         }
-        
+
         main p.date {}
-            
+
             main img {
                 width: 100%;
             }
-            
+
             main p {}
-                
+
                 /* Utseende på sidebaren */
-                
+
                 aside {
                     grid-area: sidebar;
                 }
-                
+
                 aside .sidebox {
                     background: #FFF;
                     padding: 20px;
                     border-radius: 10px;
                     margin: 20px 0;
                 }
-                
+
                 aside .sidebox .picsum {
                     display: grid;
                     grid-template-columns: auto auto auto;
                     grid-gap: 20px;
                 }
-                
+
                 aside .sidebox h4 {
                     font-family: Oswald;
                     margin-bottom: 20px;
                 }
-                
+
                 aside .sidebox ul {}
-                    
+
                     aside .sidebox li {}
-                        
+
                         aside .sidebox img {}
-                            
+
                             /* Utseende på sidfoten */
-                            
+
                             footer {
                                 grid-area: footer;
                             }
-                            
+
                             footer p {}
-                                
