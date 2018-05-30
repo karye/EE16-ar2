@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {background-color:#CC9; color:#000; font-family:Arial, Helvetica, sans-serif; width:900px; margin:20px auto;}
+
+#header {border-bottom:1px solid #C60; margin-bottom:10px;}
+#header p {text-align:right; font-style:italic; font-size:small;}
+
+#fruitButtons {float:left; width:200px;}
+#fruitButtons img {display:block; cursor:pointer;}
+
+#content {margin-left:200px;}
+
+#largePictBox {display:none; width:500px; text-align:center; padding-bottom:30px; background-color:#F90; border:3px solid #000; position:relative;}
+
+#closeBtn {position:absolute; top:-14px; right:-14px; background-color:#333; color:#FFF; border:3px solid #000;
+		width:16px; height:16px; padding:4px; border-radius:25px; cursor:pointer;}
+#lcloseBtn {background-color:#999;}
+

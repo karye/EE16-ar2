@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript-tutorial 5</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>JavaScript-tutorial 5</h1>
+    </div> <!-- End "header" -->
+
+    <div id="controlPanel">
+        <form>
+            <select>
+                <option>Välj bild</option>
+                <option disabled></option>
+                <option>strawberry</option>
+                <option>pear</option>
+                <option>cherry</option>
+                <option>grape</option>
+                <option>lemon</option>
+                <option>orange</option>
+                <option>apple</option>
+                <option>banana</option>
+            </select>
+        </form>
+        <button type="button">Visa/dölj stor bild</button>
+    </div>
+
+    <div id="fruits">
+        <p>Skriv frukternas namn på svenska (i singular)</p>
+        <form>
+            <div>
+                <img src="fruits/strawberry.jpg" alt="jordgubbe"> <input type="text"> <span></span>
+            </div>
+            <div>
+                <img src="fruits/pear.jpg" alt="päron"> <input type="text"> <span></span>
+            </div>
+            <div>
+                <img src="fruits/cherry.jpg" alt="körsbär"> <input type="text"> <span></span>
+            </div>
+            <div>
+                <img src="fruits/grape.jpg" alt="druva"> <input type="text"> <span></span>
+            </div>
+            <div>
+                <img src="fruits/lemon.jpg" alt="citron"> <input type="text"> <span></span>
+            </div>
+            <div>
+                <img src="fruits/orange.jpg" alt="apelsin"> <input type="text"> <span></span>
+            </div>
+            <div>
+                <img src="fruits/apple.jpg" alt="äpple"> <input type="text"> <span></span>
+            </div>
+            <div>
+                <img src="fruits/banana.jpg" alt="banan"> <input type="text"> <span></span>
+            </div>
+        </form>
+    </div> <!-- End "fruits" -->
+
+    <div id="choosedFruit">
+        <h4>Vald frukt</h4>
+        <div>
+            <img src="fruits/nofruit.jpg" alt="Vald frukt">
+            <p>Fruktnamn</p>
+        </div>
+    </div> <!-- End "largePict" -->
+
+    <div id="footer">
+        <p>Laboration i Webbdesign på Linnéuniversitetet</p>
+        <p>Bilder från freedigitalphotos.net</p>
+    </div> <!-- End "footer" -->
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
