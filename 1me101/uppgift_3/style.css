@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {background-color:#CC9; color:#000; font-family:Arial, Helvetica, sans-serif; width:900px; margin:20px auto;}
+
+button {background-color:#FC3; border-radius:10px; cursor:pointer;}
+button:hover {background-color:#F90;}
+
+#header {border-bottom:1px solid #C60; margin-bottom:10px;}
+
+#calcButtons {float:left; margin-bottom:20px; margin-right:20px;}
+#calcButtons button {font-size:xx-large; width:3em;}
+
+#result {font-size:xx-large;}
+
+#info {border-top:1px solid #C60; padding-top:10px; clear:both;}
+
+#listAll {float:left; width:300px; margin-right:60px;}
+
+#listResult {margin-top:10px;}
+
+#sumResult {margin-top:10px; font-size:xx-large;}

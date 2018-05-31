@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript-övning 3</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+<div id="header">
+	<h1>JavaScript-övning 3</h1>
+</div>
+
+<form>
+	<p>Tal 1: <input type="text" id="inputField1"></p>
+	<p>Tal 2: <input type="text" id="inputField2"></p>
+</form>
+
+<div id="calcButtons">
+	<button type="button" onclick="calculate()"> + </button> 
+	<button type="button" onclick="calculate()"> - </button> 
+	<button type="button" onclick="calculate()"> * </button> 
+	<button type="button" onclick="calculate()"> / </button>
+</div>
+
+<div id="result"></div>
+
+<div id="info">
+	<div id="listAll">
+		<button type="button" onclick="listAllResults()">Lista alla resultat</button> 
+		<div id="listResult"></div>
+	</div>
+	<div id="sumAll">
+		<button type="button" onclick="sumAllResults()">Summera alla resultat</button>
+		<div id="sumResult"></div>
+	</div>
+</div>
+
+</body>
+</html>

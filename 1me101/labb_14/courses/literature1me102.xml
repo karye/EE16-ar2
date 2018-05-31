@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<course_literature>
+
+	<course>
+		<code>1ME102</code>
+		<title>Design av interaktiva medier</title>
+	</course>
+	
+	<reference type="book" mandatory="yes">
+		<title>Digital Multimedia</title>
+		<author>
+			<firstname initial="N.">Nigel</firstname>
+			<lastname>Chapman</lastname>
+		</author>
+		<author>
+			<firstname initial="J.">Jenny</firstname>
+			<lastname>Chapman</lastname>
+		</author>
+		<publication_year>2009</publication_year>
+		<publisher>Wiley</publisher>
+		<isbn>9780470512166</isbn>
+		<nr_of_pages>732</nr_of_pages>
+	</reference>
+	
+	<reference type="book" mandatory="yes">
+		<title>Fundamentals of Actionscript 3.0 : develop and design</title>
+		<author>
+			<firstname initial="D.">Doug</firstname>
+			<lastname>Winnie</lastname>
+		</author>
+		<publication_year>2011</publication_year>
+		<publisher>Peachpit Press</publisher>
+		<isbn>9780321777027</isbn>
+		<nr_of_pages>525</nr_of_pages>
+	</reference>
+	
+	<comment>
+		Även diverse artiklar som delas ut i kursen.
+	</comment>
+	
+</course_literature>
