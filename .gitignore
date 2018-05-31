@@ -9,3 +9,6 @@
 /.gitignore
 /portfolio/images/grid.jpg
 /EE16.gsheet
+/_*
+/kolumner/bilder
+/javascript_rep/images

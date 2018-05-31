@@ -1,0 +1,9 @@
+label, button {
+    width: 100px;
+    margin: 10px;
+}
+
+input {
+    width: 300px;
+    margin: 10px;
+}
