@@ -19,9 +19,9 @@ function doSomething() {
 	price = Number(document.getElementById("inText").value);
 	vatFactor = 0.25; // Momsen är 25%
 	totPrice = price + vatFactor * price;
-	resStr = "Pris: " + totPrice + " med moms på " + vatFactor*100 + "%";
+	resStr = "Pris: " + totPrice + " med moms på " + vatFactor * 100 + "%";
 	vatFactor = 0.06; // Momsen är 6%
 	totPrice = price + vatFactor * price;
-	resStr += "<br>Pris: " + totPrice + " med moms på " + vatFactor*100 + "%";
+	resStr += "<br>Pris: " + totPrice + " med moms på " + vatFactor * 100 + "%";
 	document.getElementById("result").innerHTML = resStr;
 } // End doSomething

@@ -1,10 +1,29 @@
 @charset "UTF-8";
+body {
+	background: #6CF;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 900px;
+	margin: 20px auto;
+}
 
-body {background:#6CF; color:#000; font-family:Arial, Helvetica, sans-serif; width:900px; margin:20px auto;}
+#smallPics img {
+	border: 4px solid #6CF;
+	cursor: pointer;
+}
 
-#smallPics img {border:4px solid #6CF; cursor:pointer;}
-#smallPics img:hover {border-color:#090;}
+#smallPics img:hover {
+	border-color: #090;
+}
 
-#largePict {display:inline-block; border:3px groove #39C; padding:4px; margin:10px 0;}
+#largePict {
+	display: inline-block;
+	border: 3px groove #39C;
+	padding: 4px;
+	margin: 10px 0;
+}
 
-#imgBtn {margin-left:40px; cursor:pointer;}
+#imgBtn {
+	margin-left: 40px;
+	cursor: pointer;
+}

@@ -1,7 +1,14 @@
 @charset "UTF-8";
+body {
+	background-color: #FFF;
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+}
 
-body {background-color:#FFF; color:#000; font-family:Verdana, Geneva, sans-serif;}
+#courseForm label {
+	display: table;
+}
 
-#courseForm label {display:table;}
-
-#courses li {cursor:pointer;}
+#courses li {
+	cursor: pointer;
+}

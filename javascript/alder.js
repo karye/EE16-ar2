@@ -14,4 +14,4 @@ var skillnadDate = idagDate - födelseDate;
 
 var ålder = skillnadDate / (365 * 24 * 60 * 60 * 1000);
 ålder = Math.floor(ålder);
-alert(namn + ", du är "+ ålder + " år gammal");
+alert(namn + ", du är " + ålder + " år gammal");
