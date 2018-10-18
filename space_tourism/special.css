@@ -21,7 +21,7 @@
     background: rgba(255, 255, 255, 0.3);
 }
 .wanderer blockquote {
-    color: #FFF;
+    color: #fff;
     font-size: 25px;
 }
 .wanderer footer {
@@ -41,5 +41,3 @@
 .ceres .container {
     background: #aedce2;
 }
-
-

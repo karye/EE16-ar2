@@ -1,43 +1,93 @@
 /* Importera alla typsnitt */
-@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab');
 
+@import url('https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Roboto+Slab');
 /* Main Primary color */
-.color-primary-0 { color: #B47100 }
-.color-primary-1 { color: #FF9F00 }
-.color-primary-2 { color: #EC9300 }
-.color-primary-3 { color: #7F4F00 }
-.color-primary-4 { color: #352100 }
+
+.color-primary-0 {
+    color: #B47100
+}
+
+.color-primary-1 {
+    color: #FF9F00
+}
+
+.color-primary-2 {
+    color: #EC9300
+}
+
+.color-primary-3 {
+    color: #7F4F00
+}
+
+.color-primary-4 {
+    color: #352100
+}
 
 /* Main Secondary color (1) */
-.color-secondary-1-0 { color: #B40900 }
-.color-secondary-1-1 { color: #FF0D00 }
-.color-secondary-1-2 { color: #EC0C00 }
-.color-secondary-1-3 { color: #7F0600 }
-.color-secondary-1-4 { color: #350300 }
+
+.color-secondary-1-0 {
+    color: #B40900
+}
+
+.color-secondary-1-1 {
+    color: #FF0D00
+}
+
+.color-secondary-1-2 {
+    color: #EC0C00
+}
+
+.color-secondary-1-3 {
+    color: #7F0600
+}
+
+.color-secondary-1-4 {
+    color: #350300
+}
 
 /* Main Secondary color (2) */
-.color-secondary-2-0 { color: #B4A300 }
-.color-secondary-2-1 { color: #FFE700 }
-.color-secondary-2-2 { color: #ECD500 }
-.color-secondary-2-3 { color: #7F7200 }
-.color-secondary-2-4 { color: #353000 }
+
+.color-secondary-2-0 {
+    color: #B4A300
+}
+
+.color-secondary-2-1 {
+    color: #FFE700
+}
+
+.color-secondary-2-2 {
+    color: #ECD500
+}
+
+.color-secondary-2-3 {
+    color: #7F7200
+}
+
+.color-secondary-2-4 {
+    color: #353000
+}
 
 /* Enkel CSS-reset */
+
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
 
 /* Sidans utseende */
+
 body {
     background: #ec9300;
 }
+
 .container {
     font-family: 'Oswald', sans-serif;
     background: #7f7200;
@@ -48,9 +98,9 @@ body {
 }
 
 /* Sidhuvudets utseende */
-header {
 
-}
+header {}
+
 header h1 {
     font-family: 'Playfair Display', serif;
     font-size: 74px;
@@ -62,19 +112,23 @@ header h1 {
 }
 
 /* Menyn utseende */
+
 nav {
     font-family: 'Roboto Slab', serif;
     padding: 20px;
 }
+
 nav ul {
     margin-left: 0;
     padding-left: 0;
     text-align: center;
 }
+
 nav li {
     display: inline;
     list-style-type: none;
 }
+
 nav li a {
     padding: 5px 10px;
     text-decoration: none;
@@ -83,23 +137,28 @@ nav li a {
     border-radius: 20px;
     margin: 0 5px;
 }
+
 nav li a:hover {
     background: #ecd500;
 }
+
 nav li .current {
     background: #b40900;
 }
 
 /* Innehållets utseende */
+
 main {
     background: rgba(255, 255, 255, 0.33);
     padding: 30px;
     border-radius: 5px;
 }
+
 main h2 {
     text-align: center;
     letter-spacing: 10px;
 }
+
 main figure {
     width: 500px;
     padding: 30px;
@@ -107,20 +166,23 @@ main figure {
     margin: auto;
     background: #FFF;
 }
+
 main img {
     width: 100%;
 }
-main figcaption {
 
-}
+main figcaption {}
+
 main p {
     margin: 15px 0;
 }
 
 /* Sidfotens utseende */
+
 footer {
     padding: 20px 30px;
 }
+
 footer p {
     font-family: monospace;
 }
