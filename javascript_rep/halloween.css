@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Ceviche+One');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url('bilder/david-dibert-499250-unsplash.jpg') -400px;
+    background-size: 2300px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+.kontainer {
+    
+}
+h1 {
+    text-align: center;
+    color: rgb(170, 51, 51);
+    font-family: 'Ceviche One', cursive;
+    font-size: 90px;
+    text-shadow: 0 0 20px #FFF;
+}
+.grid {
+    width: 520px;
+    margin: auto;
+}
+.ruta {
+    width: 150px;
+    height: 150px;
+    background: rgba(95, 41, 41, 0.904);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    display: inline-grid;
+    margin: 10px;
+    cursor: pointer;
+}
+.pumpa {
+    background: url('bilder/rawpixel-973117-unsplash.jpg');
+}
+.ruta:hover {
+    background: rgba(0, 0, 0, 0.322);
+}
