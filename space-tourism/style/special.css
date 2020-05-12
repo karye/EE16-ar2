@@ -1,0 +1,41 @@
+.mars main, .mars footer {
+    background: #E4B395;
+}
+.titan main, .titan footer {
+    background: #F9E6B0;
+}
+.europa main, .europa footer {
+    background: #B9C3F1;
+}
+.ceres main, .ceres footer {
+    background: #B2D4E0;
+}
+.wanderer video {
+    position: fixed;
+    z-index: -100;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.wanderer .container, .wanderer footer {
+    background: none;
+    box-shadow: none;
+    color: #FFF;
+}
+.wanderer header h1, .wanderer header a {
+    color: #FFF;
+}
+.wanderer header li a:hover {
+    border-bottom: 3px solid #5D0B0D;
+}
+.wanderer header li a.active {
+    border-bottom: 3px solid #FFF;
+}
+.wanderer main {
+    display: grid;
+    align-items: center;
+}
