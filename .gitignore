@@ -3,8 +3,6 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
-/space_tourism/bilder/
-/space_tourism/video/
 /_prov1a/
 /.gitignore
 /portfolio/images/grid.jpg
@@ -12,4 +10,3 @@
 /kolumner/bilder
 /javascript_rep/images
 /*.g*
-**/bilder/
